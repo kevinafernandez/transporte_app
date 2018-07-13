@@ -1,20 +1,51 @@
-<section id="contact">
+<footer class="text-center" id="contact">
+  <div class="footer-above">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
-                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-            </div>
-            <div class="col-lg-4 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>123-456-6789</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-            </div>
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Ubicación</h3>
+          <hr class="primary">
+          <p>San Isidro 145
+            <br>
+            Santiago, Región Metropolitana</p>
         </div>
+        <div class="footer-col col-md-4">
+          <h3>Contacto</h3>
+          <hr class="primary">
+          <p>
+            <%= fa_icon 'phone' %> Oficina:+56 931959604
+            <br>
+            <%= fa_icon 'envelope-o' %> aero_vip@gmail.com
+          </p>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>Redes Sociales</h3>
+          <hr class="primary">
+          <ul class="list-inline">
+            <li>
+              <a href="#" class="btn-social btn-outline" style="color:#0f4986;"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-social btn-outline" style="color:#fe4141;"><i class="fa fa-fw fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-social btn-outline" style="color:#13adc2;"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-social btn-outline" style="color:#1e4a9f;"><i class="fa fa-fw fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-</section>
-
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Sitio desarrollado por: <%= link_to("Kevin Fernández", "http://www.linkedin.com/in/kevinfernandezm") %>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
