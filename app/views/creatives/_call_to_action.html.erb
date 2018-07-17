@@ -1,8 +1,51 @@
-<!--<aside class="bg-dark">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <h2>Free Download at Start Bootstrap!</h2>
-            <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+<style>
+  .body {
+      padding-top: 20px;
+
+  }
+</style>
+<aside class="bg-dark">
+  <div class="container text-center">
+    <h2> Albúm </h2>
+    <!-- Large modal -->
+    <button class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-lg">
+      <%= fa_icon 'plus' %> Ver más fotos
+    </button>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <%= image_tag("creative/modal/minivan_exterior.jpg", class: "img-responsive") %>
+              </div>
+              <div class="item">
+                <%= image_tag("creative/modal/minivan_maleta.jpg", class: "img-responsive") %>
+                <!--<div class="carousel-caption">
+                  One Image
+                </div>-->
+              </div>
+              <div class="item">
+                <%= image_tag("creative/modal/minivan_motor.png", class: "img-responsive") %>
+              </div>
+              <div class="item">
+                <%= image_tag("creative/modal/minivan_modal.jpg", class: "img-responsive") %>
+              </div>
+              <div class="item">
+                <%= image_tag("creative/modal/minivan_cauchos.jpg", class: "img-responsive") %>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a  class="left carousel-control" style="opacity: 1 !important;"data-slide="prev" href="#carousel-example-generic">
+              <i class="fa fa-chevron-left"></i>
+            </a>
+            <a  class="right carousel-control" style="opacity: 1 !important;"data-slide="next" href="#carousel-example-generic">
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-</aside>-->
+  </div>
+</aside>
